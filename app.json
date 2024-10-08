@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Uber",
-    "slug": "Uber",
+    "slug": "uber",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -29,6 +29,9 @@
     "plugins": [
       "expo-router"
     ],
+    "expo": {
+    "plugins": ["@prisma/react-native"]
+    },
     "experiments": {
       "typedRoutes": true
     }
